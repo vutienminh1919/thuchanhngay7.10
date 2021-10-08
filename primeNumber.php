@@ -12,9 +12,9 @@ function isPrimeNumber($x)
     }
     return true;
 }
-
-echo("Prime numbers smaller than 100 are: <br>");
-for ($i = 0; $i < 100; $i++) {
+$n = 1000;
+echo("Prime numbers smaller than $n  are: <br>");
+for ($i = 0; $i < $n; $i++) {
     if (isPrimeNumber($i)) {
         echo($i . " ");
     }
