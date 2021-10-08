@@ -23,7 +23,7 @@
 
 </head>
 <body>
-<form>
+<form method="post">
     <div class="login">
         <h2>Login</h2>
         <label>
